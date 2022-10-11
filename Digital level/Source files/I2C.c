@@ -4,16 +4,16 @@
 
 void I2C_Init()
 {
-	TWCR =_BV(TWEA) | _BV(TWEN); //W≥πcz interfejs I2C
+	TWCR =_BV(TWEA) | _BV(TWEN); //W¬≥¬πcz interfejs I2C
 	I2C_SetBusSpeed(I2CBUSCLOCK/100);
 }
 
 void I2C_SetBusSpeed(uint16_t speed)
 {
-	speed=(F_CPU/speed/100-16)/2; //speed=TWBR∑4^TWPS
+	speed=(F_CPU/speed/100-16)/2; //speed=TWBR¬∑4^TWPS
 	uint8_t prescaler=0;
 
-	while(speed>255) //Oblicz wartoúÊ preskalera
+	while(speed>255) //Oblicz warto≈ì√¶ preskalera
 	{
 		prescaler++;
 		speed=speed/4;
