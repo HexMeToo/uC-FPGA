@@ -8,7 +8,7 @@
 #ifndef SEGMENT_DISPLAY_H_
 #define SEGMENT_DISPLAY_H_
 
-// Wybór portów do poszczególnych funkcji
+// WybÃ³r portÃ³w do poszczegÃ³lnych funkcji
 #define PORT_LED PORTD
 #define DDR_LED DDRD
 #define PORT_DISPLAY PORTC
@@ -36,7 +36,7 @@
 #define EIGHT 	SEG_A|SEG_B|SEG_C|SEG_D|SEG_E|SEG_F|SEG_G
 #define NINE 	SEG_A|SEG_B|SEG_C|SEG_D|SEG_F|SEG_G
 
-// Tablica cyfr z kropk¹
+// Tablica cyfr z kropkÂ¹
 #define ZERO_D 		SEG_A|SEG_B|SEG_C|SEG_D|SEG_E|SEG_F|SEG_DOT
 #define ONE_D 		SEG_B|SEG_C|SEG_DOT
 #define TWO_D 		SEG_A|SEG_B|SEG_G|SEG_E|SEG_D|SEG_DOT
@@ -48,7 +48,7 @@
 #define EIGHT_D 	SEG_A|SEG_B|SEG_C|SEG_D|SEG_E|SEG_F|SEG_G|SEG_DOT
 #define NINE_D 		SEG_A|SEG_B|SEG_C|SEG_D|SEG_F|SEG_G|SEG_DOT
 
-// Tablica znaków
+// Tablica znakÃ³w
 #define ALL 	SEG_A|SEG_B|SEG_C|SEG_D|SEG_E|SEG_F|SEG_G|SEG_DOT
 #define DOT		SEG_DOT
 #define NOTHING 0x00
