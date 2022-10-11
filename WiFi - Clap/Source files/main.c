@@ -13,7 +13,7 @@ volatile uint8_t clap_counter = 0; // Zmienna liczaca ilosc klasniec
 
 void Init(void); // Funkcja inicjalizujaca peryferia i porty
 
-void UART_Init(long int); // Inicjalizacja UART - Nieuøywane w programie - Zarezerwowane na rozwÛj projektu
+void UART_Init(long int); // Inicjalizacja UART - Nieu≈ºywane w programie - Zarezerwowane na rozw√≥j projektu
 
 int main()
 {
