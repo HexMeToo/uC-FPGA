@@ -1,1 +1,1 @@
-Microprogrammed car alarm based on EEPROM
+Microprogrammed car alarm based on EEPROM.
